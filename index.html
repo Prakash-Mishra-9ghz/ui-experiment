@@ -4,10 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>It works 🎉</h1>
+    <audio id="popSound" src="pop.mp3" preload="auto"></audio>
+    
+  <div class="container">
+    <div class="card">
+        <h1 id="title"></h1>
+        <p id="subtitle"></p>
+
+        <button id="celebrate" class="hidden">
+            Tap for a smile ✨
+        </button>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
