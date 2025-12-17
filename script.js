@@ -5,7 +5,7 @@ const title = document.getElementById("title");
 const subtitle = document.getElementById("subtitle");
 const button = document.getElementById("celebrate");
 
-const sound = new Audio("pop.mp3");
+const sound = new Audio("birthday.mp3");
 
 // Typewriter function
 function typeText(element, text, speed = 50, callback) {
